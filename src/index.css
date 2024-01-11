@@ -54,8 +54,8 @@ body {
   padding-top: 3.25%;
   padding-bottom: 3.25%;
   border: none;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
   background-color: white;
   opacity: 0.7;
   position: relative;
@@ -212,4 +212,19 @@ body {
     z-index: 1;
   
   }
+  
+  .but1:hover {
+    opacity: 1;
+  }
+  
+  .but1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 420%;
+    border-bottom: 3px solid white;
+  }
+
+  
 }
