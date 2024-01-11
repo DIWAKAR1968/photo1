@@ -37,10 +37,42 @@ body {
   margin-top: 15%;
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  /* background-color: aqua; */
   width: 15%;
-  margin-left: 10%;
+  margin-left: 6%;
+  gap: 18%;
+  height: 60vh;
   
+}
+
+.but1 {
+  width: 120%;
+
+  /* margin-left: 20%; */
+  padding-top: 3.25%;
+  padding-bottom: 3.25%;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+  opacity: 0.7;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #f72585;
+}
+
+.but1:hover {
+  opacity: 1;
+}
+
+.but1::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -1%;
+  width: 402%;
+  border-bottom: 3px solid white;
 }
 
 .camera_image{
