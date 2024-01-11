@@ -190,7 +190,7 @@ body {
   .camera_image{
     position: absolute;
     margin-top: 10%;
-    margin-left: 38%;
+    margin-left: 37%;
     z-index: 2;
   }
 }
