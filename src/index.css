@@ -19,7 +19,7 @@ body {
 }
 
 .frame_image {
-  background-color: aqua;
+  /* background-color: aqua; */
   float: left;
   width: 25%;
   /* height: 75vh; */
@@ -27,6 +27,8 @@ body {
   padding: 0;
   margin-left: 37%;
   margin-top: 6%;
+  position: relative;
+  z-index: 1;
 }
 
 .button_container{
@@ -45,4 +47,5 @@ body {
   position: absolute;
   margin-top: 8%;
   margin-left: 38%;
+  z-index: 0;
 }
