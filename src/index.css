@@ -169,6 +169,25 @@ body {
   z-index: 2;
 }
 
+.portrait-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  color: white;
+}
+
+.portrait-message {
+  text-align: center;
+  margin: 0;
+}
+
 @media screen and (max-width: 900px) {
   .frame_image {
     float: left;
