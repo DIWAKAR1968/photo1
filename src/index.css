@@ -79,6 +79,93 @@ body {
   border-bottom: 3px solid white;
 }
 
+.but2 {
+  width: 120%;
+  /* margin-left: 20%; */
+  padding-top: 3.25%;
+  padding-bottom: 3.25%;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+  opacity: 0.7;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #f72585;
+}
+
+.but2:hover {
+  opacity: 1;
+}
+
+.but2::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -1%;
+  width: 420%;
+  border-bottom: 3px solid white;
+}
+
+.but3 {
+  width: 120%;
+  /* margin-left: 20%; */
+  padding-top: 3.25%;
+  padding-bottom: 3.25%;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+  opacity: 0.7;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #f72585;
+}
+
+.but3:hover {
+  opacity: 1;
+}
+
+.but3::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -1%;
+  width: 420%;
+  border-bottom: 3px solid white;
+}
+
+.but4 {
+  width: 120%;
+  /* margin-left: 20%; */
+  padding-top: 3.25%;
+  padding-bottom: 3.25%;
+  border: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  background-color: white;
+  opacity: 0.7;
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #f72585;
+}
+
+.but4:hover {
+  opacity: 1;
+}
+
+.but4::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -1%;
+  width: 420%;
+  border-bottom: 3px solid white;
+}
+
 .camera_image{
   position: absolute;
   margin-top: 8%;
