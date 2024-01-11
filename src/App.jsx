@@ -3,7 +3,7 @@ import Webcam from "react-webcam";
 import { saveAs } from "file-saver";
 import html2canvas from "html2canvas";
 import image from "./images/right-img.png";
-import frame from "./images/frame.png";
+import frame from "./images/frame-3.png";
 
 function App() {
   const [imgSrc, setImgSrc] = useState(null);
@@ -98,7 +98,7 @@ function App() {
           </div> */}
 
           <div className="frame_image_container">
-            {/* <img className="frame_image" src={frame} /> */}
+            <img className="frame_image" src={frame} />
             {/* <div className="camera_image">
               {imgSrc ? (
                 <img src={imgSrc} />
