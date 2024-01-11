@@ -28,7 +28,7 @@ body {
   margin-left: 37%;
   margin-top: 6%;
   position: relative;
-  z-index: 1;
+  z-index: 3;
 }
 
 .button_container{
@@ -60,6 +60,8 @@ body {
   font-size: 1.5vw;
   font-weight: bold;
   color: #f72585;
+  z-index: 1;
+
 }
 
 .but1:hover {
@@ -69,8 +71,8 @@ body {
 .but1::after {
   content: "";
   position: absolute;
-  left: 0%;
-  bottom: -1%;
+  left: 0;
+  bottom: 0;
   width: 402%;
   border-bottom: 3px solid white;
 }
@@ -79,5 +81,5 @@ body {
   position: absolute;
   margin-top: 8%;
   margin-left: 37%;
-  z-index: 0;
+  z-index: 2;
 }
