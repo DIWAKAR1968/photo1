@@ -29,7 +29,6 @@ body {
   margin-top: 6%;
   position: relative;
   z-index: 1;
-  height: 70vh;
 }
 
 .button_container{
@@ -46,8 +45,7 @@ body {
 
 .camera_image{
   position: absolute;
-  margin-top: 6.75%;
+  margin-top: 8%;
   margin-left: 37%;
   z-index: 0;
-
 }
