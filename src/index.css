@@ -22,9 +22,27 @@ body {
   background-color: aqua;
   float: left;
   width: 25%;
-  height: 70vh;
+  height: 75vh;
   margin: 0;
   padding: 0;
   margin-left: 37%;
   margin-top: 6%;
+}
+
+.button_container{
+  /* top: 10%; */
+  position: absolute;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  width: 15%;
+  margin-left: 10%;
+  
+}
+
+.camera_image{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 38%;
 }

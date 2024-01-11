@@ -84,7 +84,7 @@ function App() {
           <div className="line2"></div>
           <div className="line3"></div>
           <div className="line4"></div>
-          {/* <div className="button_container">
+          <div className="button_container">
             <button className="but1" onClick={capture}>
               CAPTURE
             </button>
@@ -95,11 +95,11 @@ function App() {
             <button className="but4" onClick={captureScreen}>
               SAVE
             </button>
-          </div> */}
+          </div>
 
           <div className="frame_image_container">
             <img className="frame_image" src={frame} />
-            {/* <div className="camera_image">
+            <div className="camera_image">
               {imgSrc ? (
                 <img src={imgSrc} />
               ) : (
@@ -113,7 +113,7 @@ function App() {
                   />
                 </div>
               )}
-            </div> */}
+            </div>
           </div>
 
           <img className="right" src={image} />
