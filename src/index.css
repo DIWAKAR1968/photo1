@@ -212,4 +212,24 @@ body {
     margin-left: 37.5%;
     z-index: 2;
   }
+
+  .but1 {
+    width: 80%;
+  
+    /* margin-left: 20%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: white;
+    opacity: 0.7;
+    position: relative;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: #f72585;
+    z-index: 1;
+  }
+
+
 }
