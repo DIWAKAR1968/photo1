@@ -55,8 +55,8 @@ function App() {
   const width = window.innerWidth;
 
   const videoConstraints = {
-    width: width <= 667 ? 160 : width < 800 ? 187 : width < 850 ? 181 :  width < 900 ? 181 : width < 1000 ? 227 : 375,
-    height: width <= 667 ? 185 : width < 800 ? 220 : width < 850 ? 230 : width < 900 ? 220 : width < 1000 ? 260 : 405,
+    width: width <= 667 ? 160 : width < 900 ? 181 : 375,
+    height: width <= 667 ? 185 : width < 900 ? 220 : 405,
     facingMode: "user",
   };
 
