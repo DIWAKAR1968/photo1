@@ -39,17 +39,17 @@ body {
   flex-direction: column;
   /* background-color: aqua; */
   width: 15%;
-  margin-left: 6%;
+  margin-left: 15%;
   gap: 14%;
   height: 60vh;
 }
 
 .but1 {
-  width: 120%;
+  width: 80%;
 
   /* margin-left: 20%; */
-  padding-top: 3.25%;
-  padding-bottom: 3.25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border: none;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
@@ -63,7 +63,9 @@ body {
 }
 
 .but1:hover {
-  opacity: 1;
+  /* opacity: 1; */
+  background-color: #f72585;
+  color: white;
 }
 
 .but1::after {
@@ -71,15 +73,15 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 420%;
+  width: 600%;
   border-bottom: 3px solid white;
 }
 
 .but2 {
-  width: 120%;
+  width: 80%;
   /* margin-left: 20%; */
-  padding-top: 3.25%;
-  padding-bottom: 3.25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border: none;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
@@ -92,7 +94,8 @@ body {
 }
 
 .but2:hover {
-  opacity: 1;
+  background-color: #f72585;
+  color: white;
 }
 
 .but2::after {
@@ -100,15 +103,15 @@ body {
   position: absolute;
   left: 0%;
   bottom: -1%;
-  width: 420%;
+  width: 600%;
   border-bottom: 3px solid white;
 }
 
 .but3 {
-  width: 120%;
+  width: 80%;
   /* margin-left: 20%; */
-  padding-top: 3.25%;
-  padding-bottom: 3.25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border: none;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
@@ -121,7 +124,8 @@ body {
 }
 
 .but3:hover {
-  opacity: 1;
+  background-color: #f72585;
+  color: white;
 }
 
 .but3::after {
@@ -129,15 +133,15 @@ body {
   position: absolute;
   left: 0%;
   bottom: -1%;
-  width: 420%;
+  width: 600%;
   border-bottom: 3px solid white;
 }
 
 .but4 {
-  width: 120%;
+  width: 80%;
   /* margin-left: 20%; */
-  padding-top: 3.25%;
-  padding-bottom: 3.25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   border: none;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
@@ -150,7 +154,8 @@ body {
 }
 
 .but4:hover {
-  opacity: 1;
+  background-color: #f72585;
+  color: white;
 }
 
 .but4::after {
@@ -158,7 +163,7 @@ body {
   position: absolute;
   left: 0%;
   bottom: -1%;
-  width: 420%;
+  width: 600%;
   border-bottom: 3px solid white;
 }
 
