@@ -4,6 +4,7 @@ import { saveAs } from "file-saver";
 import html2canvas from "html2canvas";
 import image from "./images/right-img.png";
 import frame from "./images/frame-3.png";
+import rotate from "./images/rotate.gif"
 
 function App() {
   const [imgSrc, setImgSrc] = useState(null);
@@ -77,7 +78,8 @@ function App() {
     <div>
       {isPortrait ? (
         <div className="portrait-mode">
-          <h2>Please rotate your device</h2>
+          {/* <h2>Please rotate your device</h2> */}
+          <img src={rotate}/>
         </div>
       ) : (
         <div className="main_container">
