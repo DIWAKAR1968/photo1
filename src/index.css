@@ -201,6 +201,8 @@ body {
   width: 80%;
 }
 
+
+
 @media screen and (max-width: 900px) {
   .frame_image {
     float: left;
@@ -291,5 +293,8 @@ body {
     width: 80%;
   }
 
+  
+
 
 }
+
