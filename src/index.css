@@ -66,6 +66,7 @@ body {
   /* opacity: 1; */
   background-color: #f72585;
   color: white;
+  cursor: pointer;
 }
 
 .but1::after {
@@ -96,6 +97,7 @@ body {
 .but2:hover {
   background-color: #f72585;
   color: white;
+  cursor: pointer;
 }
 
 .but2::after {
@@ -126,6 +128,7 @@ body {
 .but3:hover {
   background-color: #f72585;
   color: white;
+  cursor: pointer;
 }
 
 .but3::after {
@@ -156,6 +159,7 @@ body {
 .but4:hover {
   background-color: #f72585;
   color: white;
+  cursor: pointer;
 }
 
 .but4::after {
