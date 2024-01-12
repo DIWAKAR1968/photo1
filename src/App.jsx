@@ -79,7 +79,7 @@ function App() {
       {isPortrait ? (
         <div className="portrait-mode">
           {/* <h2>Please rotate your device</h2> */}
-          <img src={rotate}/>
+          <img className="rotate" src={rotate}/>
         </div>
       ) : (
         <div className="main_container">

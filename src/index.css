@@ -197,6 +197,10 @@ body {
   margin: 0;
 }
 
+.rotate{
+  width: auto;
+}
+
 @media screen and (max-width: 900px) {
   .frame_image {
     float: left;
